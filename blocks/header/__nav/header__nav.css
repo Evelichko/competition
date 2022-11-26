@@ -1,0 +1,27 @@
+.header__nav {
+  padding: 28px 120px;
+  max-width: 1200px;
+  width: calc(1200 / 1440 * 100%);
+  background-color: #F4F4F4;
+  display: flex;
+  justify-content: flex-end;
+  gap: 34px;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+
+@media screen and (max-width: 768px) {
+  .header__nav {
+    padding: 28px 0;
+    max-width: 768px;
+    width: 100vw;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 449px) {
+  .header__nav {
+    display: none;
+  }
+}

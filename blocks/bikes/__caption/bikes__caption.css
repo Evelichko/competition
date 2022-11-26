@@ -1,0 +1,26 @@
+.bikes__caption {
+  margin: 0;
+  padding: 18px 0 0 6px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 122%;
+  color: #151515;
+}
+
+@media screen and (max-width: 768px) {
+  .bikes__caption {
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 129%;
+    width: max-content;
+    position: relative;
+    bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .bikes__caption {
+    top: -56px;
+    right: 3px;
+  }
+}
